@@ -8,7 +8,7 @@ import JudgePanel from "./components/JudgePanel";
 import Scoreboard from "./components/Scoreboard";
 import OperatorPanel from "./components/PresenterPanel";
 
-import { useRoomRealtime } from "./hooks/useRoomRealtime";
+import { useRoomRealtime } from "./hooks/useRoomRealTime";
 import { createDefaultCriteria, getJudgeSubmittedCount } from "./utils/roomUtils";
 import {
   createRoom as apiCreateRoom,
